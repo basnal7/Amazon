@@ -49,9 +49,25 @@
                <img src="image/india-flag.jpg" width="30" height="20" alt="">
                </button>
                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+            
+  
+    <div class=" lang-slect">
+    <input type="radio" name="language" checked="checked" > <span>English</span> <br>
+    <div class="line"></div>
+    <input type="radio" name="language" ><span>Hindi</span> <br>
+
+    <input type="radio" name="language"><span>Franch</span> <br>
+    <input type="radio" name="language"> <span>etc</span> <br>
+    <input type="radio" name="language"> <span>English</span> <br>
+    <input type="radio" name="language" ><span>Hindi</span> <br>
+
+    <input type="radio" name="language"><span>Franch</span> <br>
+    <input type="radio" name="language"> <span>etc</span> <br>
+    <div class="line"></div>
+    <img src="image/india-flag.jpg" alt=""> <p>You are shopping on amzone.in</p>
+    <a href="#">Change country/ Region </a>
+    </div>
+  
                </div>
             </div>
             <!-- sign in  -->
@@ -963,18 +979,21 @@ FREE Delivery over ₹499. Fulfilled by Amazon</p>
     <div class="modal menu" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" tabindex="-1" role="dialog">
 
 
-        <div class="modal-header">
-
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-        </div>
+       
         <div class="modal-body">
+           <div class="d-flex">
             <div class="top">
                 <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                 <span>
                 Hello, Sign in</span>
             </div>
+            <div class="modal-header">
+
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+</div>
+</div>
             <div class="menu-body">
                 <div class="div1">
                     <h3>Trending</h3>
